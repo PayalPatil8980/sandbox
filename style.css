@@ -147,7 +147,6 @@
     color: #343f52;
     font-weight: bold   ;
 }
-
 .info{
     margin-top: 20px;
     height: 400px;
@@ -164,12 +163,19 @@
     display: flex;
     justify-content: space-evenly;
 }
+.support_24 i{
+    color: aqua;
+}
 .image{
     height: 200px;
     width: 200px;
     margin: 20px;
-    color: #fab758;
+    outline: pink;
 }
+.icon {
+    filter: invert(70%) sepia(40%) saturate(500%) hue-rotate(190deg) brightness(95%) contrast(90%);
+}
+
 .desc{
     margin-top: 20px;
     font-size: 16px;
@@ -182,6 +188,24 @@
     }
 }
 
+.container1{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+
+}
+.solution{
+    height: fit-content;
+    width: 800px;
+}
+.solution img{
+    height: 700px;
+    width: 800px;
+    object-fit: cover;
+    /* border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px; */
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
 @keyframes slideInDown {
     0% {
         opacity: 0;
