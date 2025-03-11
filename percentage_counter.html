@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animated Counter</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .counter {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #4CAF50;
+            position: relative;
+        }
+
+        .counter::after {
+            content: "1%";
+            animation: count 3s forwards;
+        }
+
+        @keyframes count {
+            from {
+                content: "1%";
+            }
+            to {
+                content: "99.7%";
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="counter"></div>
+</body>
+</html>

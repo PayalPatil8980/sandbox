@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-gallery {
+  display: flex;               /* Enables horizontal layout */
+  gap: 10px;                   /* Adds spacing between images */
+  overflow-x: auto;            /* Enables horizontal scrolling */
+  white-space: nowrap;         /* Prevents images from wrapping */
+  width: 100%;                 /* Fixed width for the container */
+  padding: 10px;               /* Optional padding */
+  scroll-snap-type: x mandatory; /* Smooth scrolling effect */
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+
+.image-gallery img {
+  width: 200px;                /* Fixed width for images */
+  height: auto;                /* Maintains aspect ratio */
+  border-radius: 10px;         /* Optional styling */
+  scroll-snap-align: start;    /* Aligns each image during scroll */
+}
+
+    </style>
+</head>
+<body>
+    <div class="image-gallery">
+        <img src="hover_1.jpeg" alt="Image 1">
+        <img src="hover_2.jpeg" alt="Image 2">
+        <img src="hover_3.jpeg" alt="Image 3">
+        <img src="hover_4.jpeg" alt="Image 4">
+        <!-- <img src="image5.jpg" alt="Image 5"> -->
+      </div>      
+</body>
+</html>
