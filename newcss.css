@@ -22,7 +22,9 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    .logo{
+    align-items: center;
+    height: 70px;
+    .logo img{
         margin-top:35px;
     }
     .navlinks ul{

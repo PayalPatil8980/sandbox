@@ -10,28 +10,23 @@
 
 @media (max-width:992px){
   .container{
-    max-width: 992px;
+    max-width: 1340x;
     margin: auto;
+  }
+  .maintext{
+    width: 350px;
   }
   .body{
     background-image: url("main_banner.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
-    background-size: 102% 100%;
+    background-size: 98% 98%;
     /* height: 800px;   */
+
 }
   .navlinks li{
     display: none;
   }
-  
-  .body{
-    background-image: url("main_banner.jpeg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-size: 102% 100%;
-    
-    
-}
 }
 
 @media (max-width:768px){
