@@ -176,6 +176,7 @@
     }
 }
 .container_3{
+    position: relative;
     width: 100%;
     height: 700px;
     /* border: 1px solid black; */
@@ -309,7 +310,8 @@
 
 .container5{
     height: 600px;
-    width: 100vw;
+    position: relative;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
