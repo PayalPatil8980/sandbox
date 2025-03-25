@@ -1,34 +1,34 @@
+@media (max-width:1400px) {}
 
+@media (max-width:1200px) {}
 
-@media (max-width:1400px){
-   
-}
+@media (max-width:992px) {
 
-@media (max-width:1200px){
-  
-}
-
-@media (max-width:992px){
-  .container{
-    max-width: 1340x;
-    margin: auto;
+  header {
+    width: 100%;
   }
-  .maintext{
-    width: 350px;
-  }
-  .body{
-    background-image: url("main_banner.jpeg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-size: 98% 98%;
-    /* height: 800px;   */
+ 
 
-}
-  .navlinks li{
+  /* .first h1{
+    width: 450px;
+  }
+  .second p{
+    width: 400px;
+  } */
+  .navlinks .icons .mobilemenu{
+    display: block;
+  }
+  .navlinks li {
     display: none;
   }
 }
 
-@media (max-width:768px){
-   
+@media (max-width:768px) {
+
 }
+
+@media (max-width:576px) {
+    
+}
+
+
